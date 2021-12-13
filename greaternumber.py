@@ -1,3 +1,8 @@
+# Jai Shri Krishna
+# This is a Program 
+# to Find a Greater Integer
+# created by : Ranjeet
+
 a = int(input("Please Enter Number = "))
 b = int(input("Please Enter Number = "))
 
