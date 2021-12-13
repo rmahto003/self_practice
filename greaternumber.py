@@ -2,7 +2,7 @@ a = int(input("Please Enter Number = "))
 b = int(input("Please Enter Number = "))
 
 if a > b :
-    print(str(a) + " is greater than " + str(b))
+    print(repr(a) + " is greater than " + repr(b))
 
 else :
-    print(str(a) + " is smaller than " + str(b))
+    print(repr(a) + " is smaller than " + repr(b))
