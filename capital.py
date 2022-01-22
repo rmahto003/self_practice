@@ -28,14 +28,7 @@ states_capitals = { 'Andra Pradesh'     : 'Amaravati' ,
                     'Uttarakhand'       : 'Dehradun' ,
                     'West Bengal'       : 'Kolkata'    }
 
-#for k,v in states_capitals.items():
-#   print(k , ':' , v)
 
-
-
-
-#d = str(input('enter name : ').title())
-#print(states_capitals[d])
 
 d =input('Enter State : ').title()
 
