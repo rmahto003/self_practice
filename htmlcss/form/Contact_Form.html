@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="submit">
+
+        <div class="container">
+            <h2>Contact Form</h2>
+            <hr>
+            <p>First Name : <input type="text" name="name" id="fist_name" placeholder="Enter your First Name" required></p>
+            <p>Last Name : <input type="text" name="name"  id="last_name" placeholder="Enter your Last Name " required></p>
+            <p>
+                Gender :
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p>
+            <p>DOB : <input type="date" name="dob" id="dob" requird> </p>
+            
+            <p>Phone No. : <input type="number" name="phone_number"></p>
+            <p>Email : <input type="email" name = email></p>
+
+            <p>Country : <select name="country" id="country">
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="US">Us</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="France">France</option>
+                        <option value="Canada">Canada</option>
+                    </select></p>
+            <p>Address : <textarea name="address" id="address" cols="40" rows="5"></textarea></p>
+            <input type="submit" value="Submit">
+
+        </div>
+    </form>
+    
+</body>
+</html>

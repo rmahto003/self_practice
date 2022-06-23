@@ -1,0 +1,16 @@
+div{
+    padding: 20px;
+    border:10px solid black;
+    margin:20px;
+    background-color: grey;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+}
+p{
+    padding: 20px;
+
+    font-size: large;
+    background-color: rgb(96, 79, 205);
+}
+
